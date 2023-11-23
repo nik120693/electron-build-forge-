@@ -1,0 +1,1 @@
+(()=>{var e,r,t,n={298:e=>{"use strict";e.exports=require("electron")}},o={};e=function e(r){var t=o[r];if(void 0!==t)return t.exports;var i=o[r]={exports:{}};return n[r](i,i.exports,e),i.exports}(298),r=e.app,t=e.BrowserWindow,r.on("ready",(function(){new t({width:800,height:600,webPreferences:{nodeIntegration:!0}}).loadFile("./src/index.html")}))})();
